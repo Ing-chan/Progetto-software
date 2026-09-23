@@ -1,2 +1,25 @@
 # Project exclude paths
 /Codex_Nat/target/
+
+# Build output (Maven)
+target/
+**/target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Log files
+*.log
+*.log.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated documentation
+**/jdoc/
