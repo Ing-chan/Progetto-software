@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Codex_Nat_Client:jar" />
+      <artifact name="Codex_Nat_Server:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb1cf3d0-78d7-4873-b583-e95e172e5dba" name="Changes" comment="squash! UML main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/View/GUI/GameBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/View/GUI/GameBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Network/Client/RMI/ClientRMIHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Network/Client/RMI/ClientRMIHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Network/Server/Connections/RMIConnectionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Network/Server/Connections/RMIConnectionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Network/Server/Connections/ServerRMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Network/Server/Connections/ServerRMI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Network/Server/Connections/SocketConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Network/Server/Connections/SocketConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Server/Server.java" afterDir="false" />
+    </list>
+    <list id="e4a3c332-2c5d-4401-82cb-7163fcbd53bf" name="Changes by Lorenzo" comment="Changes by Lorenzo" />
+    <list id="8c0edac1-5264-46c2-872d-eac8f85721a0" name="Changes by matte" comment="" />
+    <list id="8b1f1d5e-4bc0-43f3-bd04-8e6c1c11bdf7" name="Changes by monta" comment="Changes by monta" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="module-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="GUI-Chat-alpha" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ing-chan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2fe74e71-43b8-4d95-83f1-aefffe356241" />
+        <option name="url" value="https://github.com/CastellanaLorenzo/IS24-AM10.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2dGwyXqE3k6Xwc1lJ4oxgq6kHQM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientMain (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Gui.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Network.Server.Server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.it.polimi.ingsw.View.GUI.Gui.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainTest.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
+    &quot;JUnit.GameTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PlayerBoardTest.testDoesntTouchAnyUnplayableCorner.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Codex_Nat [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programmazione/Progetti/Ingegneria del software/IS24-AM10/Codex_Nat/src/test/it.polimi.ingsw/Model&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.48809522&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Controller.Client.PlayablePhases" />
+      <recent name="Controller.Client.Executor" />
+      <recent name="Controller.Server.MessagesToClient" />
+      <recent name="Controller.Server.Executor" />
+      <recent name="Controller.Client.MessagesToServer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programmazione\Progetti\Ingegneria del software\IS24-AM10\Codex_Nat\src\test\it.polimi.ingsw\Model" />
+      <recent name="D:\Programmazione\Progetti\Ingegneria del software\IS24-AM10\Codex_Nat\src\test\test new\it\polimi\ingsw\Server\Model" />
+      <recent name="D:\Programmazione\Progetti\Ingegneria del software\IS24-AM10\Codex_Nat\src\main\java\Resources\META-INF" />
+      <recent name="$PROJECT_DIR$/Codex_Nat/src/main/java/Resources/it/polimi/ingsw/View/GUI/img/cards/gold/front" />
+      <recent name="$PROJECT_DIR$/Codex_Nat/src/main/java/Resources/it/polimi/ingsw/GUI/img/icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programmazione\Progetti\Ingegneria del software\IS24-AM10\Codex_Nat\src\main\java\Resources\it\polimi\ingsw\Client\View\GUI" />
+      <recent name="D:\Programmazione\Progetti\Ingegneria del software\IS24-AM10\Codex_Nat\src\main\java\Resources\tmp" />
+      <recent name="D:\Programmazione\Progetti\Ingegneria del software\IS24-AM10\Codex_Nat\src\main\java\Resources\it\polimi\ingsw\View\GUI" />
+      <recent name="$PROJECT_DIR$/Codex_Nat/src/main/java/Resources/it/polimi/ingsw/View/GUI" />
+      <recent name="$PROJECT_DIR$/Codex_Nat/src/main/java/Resources/sdxads" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="it.polimi.ingsw" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="deliveries" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClientMain (1)">
+    <configuration name="ClientMain (1)" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="it.polimi.ingsw.Client.ClientMain" />
+      <module name="Codex_Nat" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.polimi.ingsw.Server.Server" />
+      <module name="Codex_Nat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.polimi.ingsw.Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Board in Codex_Nat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Codex_Nat" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/Codex_Nat/src/test/test new/it/polimi/ingsw/Server/Model/Board" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Codex_Nat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.polimi.ingsw.Server.Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.polimi.ingsw.Server.Model" />
+      <option name="MAIN_CLASS_NAME" value="it.polimi.ingsw.Server.Model.GameModelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Codex_Nat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.polimi.ingsw.Server.Model.Board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.polimi.ingsw.Server.Model.Board" />
+      <option name="MAIN_CLASS_NAME" value="it.polimi.ingsw.Server.Model.Board.PlayerBoardTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test new in Codex_Nat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Codex_Nat" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/Codex_Nat/src/test/test new" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="IS24-AM10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="IS24-AM10" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ClientMain (1)" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="JUnit.Board in Codex_Nat" />
+      <item itemvalue="JUnit.GameModelTest" />
+      <item itemvalue="JUnit.PlayerBoardTest" />
+      <item itemvalue="JUnit.test new in Codex_Nat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+        <item itemvalue="JUnit.GameModelTest" />
+        <item itemvalue="JUnit.test new in Codex_Nat" />
+        <item itemvalue="JUnit.Board in Codex_Nat" />
+        <item itemvalue="JUnit.PlayerBoardTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb1cf3d0-78d7-4873-b583-e95e172e5dba" name="Changes" comment="" />
+      <created>1709647977358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709647977358</updated>
+      <workItem from="1716236041470" duration="270000" />
+      <workItem from="1716236321956" duration="18780000" />
+      <workItem from="1716411026700" duration="8022000" />
+      <workItem from="1716458925357" duration="6889000" />
+      <workItem from="1716837624889" duration="12123000" />
+      <workItem from="1716889531081" duration="5031000" />
+      <workItem from="1717242229714" duration="14617000" />
+      <workItem from="1717338085441" duration="5940000" />
+      <workItem from="1717534558692" duration="7643000" />
+      <workItem from="1717584469960" duration="33901000" />
+      <workItem from="1718103511303" duration="108000" />
+      <workItem from="1718103653116" duration="14891000" />
+      <workItem from="1718442355960" duration="16009000" />
+      <workItem from="1718632750325" duration="10653000" />
+      <workItem from="1718715963837" duration="15423000" />
+      <workItem from="1718804324538" duration="1347000" />
+      <workItem from="1719064831346" duration="93224000" />
+      <workItem from="1719330836475" duration="16010000" />
+      <workItem from="1719390751045" duration="2898000" />
+      <workItem from="1719394467795" duration="38488000" />
+      <workItem from="1719443582168" duration="42013000" />
+      <workItem from="1719533056445" duration="7803000" />
+      <workItem from="1719541523619" duration="23185000" />
+      <workItem from="1719566922613" duration="4451000" />
+      <workItem from="1719863795514" duration="17173000" />
+      <workItem from="1719948194156" duration="12274000" />
+      <workItem from="1719993280967" duration="288000" />
+    </task>
+    <task id="LOCAL-00079" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719249377825</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1719249377825</updated>
+    </task>
+    <task id="LOCAL-00080" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719249696845</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1719249696845</updated>
+    </task>
+    <task id="LOCAL-00081" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719252202103</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1719252202103</updated>
+    </task>
+    <task id="LOCAL-00082" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719269413181</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1719269413181</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Changes by Lorenzo">
+      <option name="closed" value="true" />
+      <created>1719308192215</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1719308192217</updated>
+    </task>
+    <task id="LOCAL-00084" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719310513161</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1719310513161</updated>
+    </task>
+    <task id="LOCAL-00085" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719311123790</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1719311123790</updated>
+    </task>
+    <task id="LOCAL-00086" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719317789071</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1719317789071</updated>
+    </task>
+    <task id="LOCAL-00087" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719323604609</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1719323604609</updated>
+    </task>
+    <task id="LOCAL-00088" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719335542578</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1719335542579</updated>
+    </task>
+    <task id="LOCAL-00089" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719398040726</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1719398040726</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Changes by monta">
+      <option name="closed" value="true" />
+      <created>1719398053096</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1719398053096</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Changes by monta">
+      <option name="closed" value="true" />
+      <created>1719398085887</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1719398085888</updated>
+    </task>
+    <task id="LOCAL-00092" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719408298520</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1719408298520</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Changes by isabella.argentiero">
+      <option name="closed" value="true" />
+      <created>1719408308106</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1719408308106</updated>
+    </task>
+    <task id="LOCAL-00094" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719408355924</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1719408355924</updated>
+    </task>
+    <task id="LOCAL-00095" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719433549115</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1719433549116</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Changes by isabella.argentiero">
+      <option name="closed" value="true" />
+      <created>1719433571170</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1719433571170</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Changes by monta">
+      <option name="closed" value="true" />
+      <created>1719433602968</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1719433602968</updated>
+    </task>
+    <task id="LOCAL-00098" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719434057081</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1719434057081</updated>
+    </task>
+    <task id="LOCAL-00099" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719434632258</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1719434632258</updated>
+    </task>
+    <task id="LOCAL-00100" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719444868029</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1719444868030</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Changes by isabella.argentiero">
+      <option name="closed" value="true" />
+      <created>1719444912058</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1719444912058</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Changes by monta">
+      <option name="closed" value="true" />
+      <created>1719444963986</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1719444963986</updated>
+    </task>
+    <task id="LOCAL-00103" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719493208176</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1719493208177</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Changes by isabella.argentiero">
+      <option name="closed" value="true" />
+      <created>1719493326356</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1719493326356</updated>
+    </task>
+    <task id="LOCAL-00105" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719496829065</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1719496829065</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Changes by monta">
+      <option name="closed" value="true" />
+      <created>1719496838183</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1719496838183</updated>
+    </task>
+    <task id="LOCAL-00107" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719501239446</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1719501239446</updated>
+    </task>
+    <task id="LOCAL-00108" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719502183785</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1719502183785</updated>
+    </task>
+    <task id="LOCAL-00109" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719550941377</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1719550941378</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Changes by monta">
+      <option name="closed" value="true" />
+      <created>1719550970567</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1719550970567</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Changes by isabella.argentiero">
+      <option name="closed" value="true" />
+      <created>1719551213999</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1719551213999</updated>
+    </task>
+    <task id="LOCAL-00112" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719551499241</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1719551499241</updated>
+    </task>
+    <task id="LOCAL-00113" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719552802874</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1719552802874</updated>
+    </task>
+    <task id="LOCAL-00114" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719559391115</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1719559391115</updated>
+    </task>
+    <task id="LOCAL-00115" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719560882221</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1719560882221</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Changes by monta">
+      <option name="closed" value="true" />
+      <created>1719560902343</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1719560902343</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Changes by isabella.argentiero">
+      <option name="closed" value="true" />
+      <created>1719560915536</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1719560915536</updated>
+    </task>
+    <task id="LOCAL-00118" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719567233635</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1719567233636</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Changes by monta">
+      <option name="closed" value="true" />
+      <created>1719567240630</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1719567240630</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Changes by isabella.argentiero">
+      <option name="closed" value="true" />
+      <created>1719567247977</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1719567247977</updated>
+    </task>
+    <task id="LOCAL-00121" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719567272143</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1719567272144</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Changes by samue">
+      <option name="closed" value="true" />
+      <created>1719567278619</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1719567278619</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Changes by isabella.argentiero">
+      <option name="closed" value="true" />
+      <created>1719567299071</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1719567299071</updated>
+    </task>
+    <task id="LOCAL-00124" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719572977705</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1719572977705</updated>
+    </task>
+    <task id="LOCAL-00125" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719573923801</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1719573923801</updated>
+    </task>
+    <task id="LOCAL-00126" summary="squash! UML main">
+      <option name="closed" value="true" />
+      <created>1719928095770</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1719928095770</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Changes by monta">
+      <option name="closed" value="true" />
+      <created>1719928101280</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1719928101280</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bho" />
+    <MESSAGE value="se non va salto addosso all'esercitatore" />
+    <MESSAGE value="UML main" />
+    <MESSAGE value="Changes by Lorenzo" />
+    <MESSAGE value="Changes by samue" />
+    <MESSAGE value="Changes by isabella.argentiero" />
+    <MESSAGE value="squash! UML main" />
+    <MESSAGE value="Changes by monta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by monta" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/test/GameTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/Controller/PlayablePhases/SetupState.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/Controller/GameCommand.java</url>
+          <line>608</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/Controller/GameCommand.java</url>
+          <line>605</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/View/GUI/GameBoardController.java</url>
+          <line>929</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/View/GUI/GameBoardController.java</url>
+          <line>939</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/View/GUI/GameBoardController.java</url>
+          <line>975</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/View/GUI/GameBoardController.java</url>
+          <line>999</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/View/GUI/GameBoardController.java</url>
+          <line>1008</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/View/GUI/GameBoardController.java</url>
+          <line>1022</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/View/GUI/GameBoardController.java</url>
+          <line>1035</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/View/GUI/GameBoardController.java</url>
+          <line>1042</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/View/GUI/GameBoardController.java</url>
+          <line>1048</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/View/GUI/GameBoardController.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Client/View/GUI/GameBoardController.java</url>
+          <line>952</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Network/Client/RMI/ClientRMIHandler.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Network/Client/RMI/ClientRMIHandler.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Codex_Nat/src/main/java/it/polimi/ingsw/Network/Client/RMI/ClientRMIHandler.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="98" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="113" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Player.Player" memberName="score" />
+        <PinnedItemInfo parentTag="Model.Player.Player" memberName="pBoard" />
+        <PinnedItemInfo parentTag="Player.Player" memberName="objectives" />
+        <PinnedItemInfo parentTag="Board.PlayerBoard" memberName="placedCards" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="string" language="JAVA" />
+        <watch expression="partialLenght" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IS24_AM10$PlayerBoardTest.ic" NAME="PlayerBoardTest Coverage Results" MODIFIED="1719567471988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>it.polimi.ingsw.Server.Model.Board.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IS24_AM10$GameModelTest.ic" NAME="GameModelTest Coverage Results" MODIFIED="1719569192394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>it.polimi.ingsw.Server.Model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IS24_AM10$test_in_Codex_Nat.ic" NAME="test in Codex_Nat Coverage Results" MODIFIED="1713883870081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IS24_AM10$All_in_Codex_Nat.ic" NAME="All in Codex_Nat Coverage Results" MODIFIED="1713945768288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/IS24_AM10$test_new_in_Codex_Nat.ic" NAME="test new in Codex_Nat Coverage Results" MODIFIED="1719567983543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/IS24_AM10$CardTest_testFirstCard.ic" NAME="CardTest.testFirstCard Coverage Results" MODIFIED="1713951094981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Cards.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IS24_AM10$Cards_in_Codex_Nat.ic" NAME="Cards in Codex_Nat Coverage Results" MODIFIED="1713951291143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Model.Cards.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IS24_AM10$mainTest.ic" NAME="mainTest Coverage Results" MODIFIED="1713884161247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/IS24_AM10$CardTest__1_.ic" NAME="CardTest (1) Coverage Results" MODIFIED="1713954217868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Model.Cards.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IS24_AM10$Model_in_Codex_Nat.ic" NAME="Model in Codex_Nat Coverage Results" MODIFIED="1713883917559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IS24_AM10$CardTest.ic" NAME="CardTest Coverage Results" MODIFIED="1713951460466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Cards.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IS24_AM10$InventoryTest.ic" NAME="InventoryTest Coverage Results" MODIFIED="1713950287505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/IS24_AM10$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1713887316610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IS24_AM10$Board_in_Codex_Nat.ic" NAME="Board in Codex_Nat Coverage Results" MODIFIED="1719567494859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

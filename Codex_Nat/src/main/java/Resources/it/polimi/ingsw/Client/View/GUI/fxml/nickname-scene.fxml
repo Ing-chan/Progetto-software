@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="336.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.Client.View.GUI.NicknameSceneController">
+    <children>
+        <ImageView fitHeight="336.0" fitWidth="600.0" pickOnBounds="true">
+            <image>
+                <Image url="@../img/background.jpg" />
+            </image>
+        </ImageView>
+        <TextField fx:id="nicknameField" blendMode="MULTIPLY" layoutX="220.0" layoutY="168.0" promptText="Enter Nickname" />
+        <Button fx:id="backButton" blendMode="MULTIPLY" layoutX="16.0" layoutY="295.0" mnemonicParsing="false" onAction="#onBackButton" text="Back">
+            <font>
+                <Font name="Luminari" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="continueButton" blendMode="MULTIPLY" layoutX="510.0" layoutY="295.0" mnemonicParsing="false" onAction="#onContinueButton" text="Continue">
+            <font>
+                <Font name="Luminari" size="14.0" />
+            </font>
+        </Button>
+        <ImageView fx:id="errore1" fitHeight="150.0" fitWidth="200.0" layoutX="86.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/icons/personaggio2.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="errore2" fitHeight="123.0" fitWidth="227.0" layoutX="228.0" layoutY="208.0" opacity="0.54" pickOnBounds="true">
+            <image>
+                <Image url="@../img/icons/pngwing.com.png" />
+            </image>
+        </ImageView>
+        <Text fx:id="errore3" layoutX="249.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This username has already been picked. Chose another one!" wrappingWidth="171.19929486105104">
+            <font>
+                <Font name="Luminari" size="14.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="135.0" fitWidth="604.0" layoutX="-2.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/slider.jpeg" />
+            </image>
+        </ImageView>
+        <Text layoutX="-2.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pick a username" textAlignment="CENTER" wrappingWidth="604.0">
+            <font>
+                <Font name="Luminari" size="18.0" />
+            </font>
+        </Text>
+    </children>
+</Pane>

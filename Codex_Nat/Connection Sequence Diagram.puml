@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+
+title
+ Connection
+end title
+
+Client->Server: CanIPlayMTS
+Server->Client: YouCanJoinMTS
+alt game doesn't exist
+Client->Server: NewGameMTS
+Server->Client: Waiting4PlayersMTC
+end
+
+@enduml

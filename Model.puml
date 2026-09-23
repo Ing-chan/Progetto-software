@@ -1,0 +1,199 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+ModelSubject <|... Player
+ModelSubject <|... Board
+ModelSubject <|...  Cards
+ModelObservers <|.. EndOfTurn
+ModelSubject <|... GameModel
+Player -[hidden] Board
+
+
+
+class ModelSubject {
+}
+
+class ModelObservers {
+}
+
+class GameModel {
+ArrayList<ModelObservers> observers
+ArrayList<player> players
+Int GameId
+Int MAX_players
+Board points
+ArrayList<playableCard> deckGoldCards
+ArrayList<playebleCard> deckResourceCards
+ArrayList<objectiveCard> deckObjectiveCards
+ArrayList<playablecard> firstCards
++ void shuffle(ArrayList<PlayableCard> deck)
++ void shuffle(ArrayList<ObjectiveCard> deck)
++ void startGame()
++ void EndGame()
++ void AddPlayer()
++ int getMAX_Players()
++ void FirstTurn()
++ void updateGameState()
++ int DrawCard(String nickname, CardType type)
++ int DrawCard(String nickname, int idcard)
++ void placeCard(String nickname)
++ ArrayList<PlayableCard> getDrawableCards()
++ ArrayList<PlayableCard> GetBoard(String nickname)
++ GameState getGameState()
++ void setCommonObjectives()
++ void setSecretObjectives()
++ int: GetScore(String nickname)
++ int: GetFinalScore(String nickname)
++ int getGameid()
++ Player getWinner()
+}
+
+package Cards{
+
+Face -[hidden] ObjectiveCard
+
+class PlayableCard{
+Int idcard
+Enum ColorCard
+Enum CardType
+face front
+face back
+Boolean ActiveFace
++ Enum getCardType()
++ void FlipCard()
++ Int CalculatePoints()
++  ArrayList<Resource> getCardResources()
++ ArrayList<Resource> getCardCost()
++ ArrayList<CornerPosition> getFreeCorners()
+}
+
+class ObjectiveCard{
+int idcard
+Enum Objectives
+boolean secret
++ int CalculatePoints(Board,inventory)
++ void setSecret()
+}
+
+class Face{
+Int Punti
+ArrayList<int> Costo
+ArrayList<Corner> corners
+Enum Objectives
++ ArrayList<Resource> getFaceResources()
++ ArrayList<Resource> getCost()
++ ArrayList<CornerPosition> getFreeCorners()
+}
+
+class Corner{
+Enum resurce
+Boolean active
++ void setCornerState()
++ void getCornerState()
+}
+}
+
+package Player{
+
+class Player {
+String username
+int score
+ArrayList<ObjectiveCard> Objectives
+ArrayList<PlayableCard> myCards
+Inventory playerInventory
+PlayerBoard pBoard
++ String getNickname()
++ void setNickname()
++ HashMap<Point, PlayableCard> GetBoard()
++ ArrayList<position> getValidCardPositions()
++ void notifyEndOfTurn()
++ void ChooseSecretObjective(ObjectiveCard obj)
++ void addCard(playableCard)
++ void addCard(objectiveCard)
++ void placeCard(PlayableCard card, Point points)
+}
+
+class Inventory {
+int fungi
+int animals
+int plants
+int insects
+int quill
+int inkwell
+int manuscript
+Int getResources(Resource res)
+void addResource(Resource res, int num)
+void removeResource(Resource res, int num)
+}
+}
+
+package Board{
+
+PlayerBoard -[hidden] ScoreBoard
+
+class PlayerBoard{
+HashMap<Point, PlayableCard> placedCards
+HashMap<Point, boolean> playablePositions
++void placeNewCard(PlayableCard card, Point coords)
++HashMap<Point, boolean> getPlayablePositions()
++void LoadBoard(HashMap<Point, PlayableCard> peekedList)
++HashMap<Point, PlayableCard> getBoard()
+}
+
+class PlacedCard{
+PlayableCard card
+Point coords
++ ArrayList<CornerPosition> getFreeCorners()
+}
+
+class ScoreBoard{
+String[] playerPawn
++String getFirstPlayer()
++int getPlayerScore(Nickname)
+}
+}
+
+package EndOfTurn{
+
+EndOfTurnObserver<|..ScoreCalculation.ScoreBoardObserver
+EndOfTurnObserver<|..ScoreCalculation.FinalScore
+EndOfTurnObserver<|..BoardRefresher.PlayerBoardRefresher
+EndOfTurnObserver<|..BoardRefresher.ScoreBoardRefresher
+
+interface EndOfTurnObserver{
++ void update()
+}
+
+package ScoreCalculation{
+
+class ScoreBoardObserver{
+ArrayList<player> players
++void update()
++void StartLastTurn()
++void scoreCardPoints()
++Inventory getInventory()
++String getFirstPlayer()
+}
+
+class FinalScore{
+scoreBoard board
++void update()
++void showScoreSecretGoals()
++void showScoreCommonGoals()
+}
+}
+
+package BoardRefresher{
+
+class ScoreBoardRefresher{
+ScoreBoard scoreboard
++void update()
+}
+class PlayerBoardRefresher{
+PlayerBoard playerboard
++void update()
+}
+}
+}
+
+@enduml

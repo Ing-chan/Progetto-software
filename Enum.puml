@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+enum CardColur {
+PURPLE
+RED
+GREEN
+BLUE
+}
+
+enum CardType {
+GOLDCARD
+RESOURCECARD
+OBJECTIVECARD
+INITIALCARD
+}
+
+enum Resurces {
+ANIMAL
+PLANT
+FUNGI
+INSECT
+QUILL
+INKWELL
+MANUSCRIPT
+}
+
+enum GameState {
+START
+RUNNING
+FINAL
+END
+}
+
+enum Objectives {
+ITEM
+CORNER
+SCHEME
+RESOURCES
+}
+
+enum CornerPosition {
+TOPLEFT
+TOPRIGHT
+BOTTOMRIGHT
+BOTTOMLEFT
+}
+
+
+@enduml

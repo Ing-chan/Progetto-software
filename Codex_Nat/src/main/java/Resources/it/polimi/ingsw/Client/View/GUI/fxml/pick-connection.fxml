@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="336.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.Client.View.GUI.PickConnectionSceneController">
+    <children>
+        <ImageView fitHeight="336.0" fitWidth="600.0" pickOnBounds="true">
+            <image>
+                <Image url="@../img/background.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="150.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/slider.jpeg" />
+            </image>
+        </ImageView>
+        <Text fontSmoothingType="LCD" layoutX="213.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pick a type of connection" textAlignment="CENTER" wrappingWidth="173.2294921875">
+            <font>
+                <Font name="Luminari" size="15.0" />
+            </font>
+        </Text>
+        <RadioButton fx:id="rmiButton" blendMode="MULTIPLY" layoutX="398.0" onAction="#onClickConnectionButton" layoutY="200.0" mnemonicParsing="false" text="RMI">
+            <font>
+                <Font name="Luminari" size="16.0" />
+            </font>
+            <toggleGroup>
+                <ToggleGroup fx:id="connectionOption" />
+            </toggleGroup>
+        </RadioButton>
+        <RadioButton fx:id="socketButton" blendMode="MULTIPLY" layoutX="142.0" onAction="#onClickConnectionButton" layoutY="200.0" mnemonicParsing="false" text="Socket" toggleGroup="$connectionOption">
+            <font>
+                <Font name="Luminari" size="16.0" />
+            </font>
+        </RadioButton>
+        <ButtonBar prefHeight="40.0" prefWidth="200.0" />
+        <Button fx:id="backButton" blendMode="MULTIPLY" layoutX="14.0" layoutY="295.0" mnemonicParsing="false" onAction="#onBackButton" style="-fx-alignment: CENTER;" text="Back">
+            <font>
+                <Font name="Luminari" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="continueButton" blendMode="MULTIPLY" layoutX="510.0" layoutY="295.0" mnemonicParsing="false" onAction="#onContinueButton" text="Continue">
+            <font>
+                <Font name="Luminari" size="14.0" />
+            </font>
+        </Button>
+        <TextField fx:id="ipField"
+                   cache="true"
+                   promptText="Enter IP Address"
+                   layoutX="220.0"
+                   layoutY="242.0"
+                   opacity="0.6"/>
+    </children>
+</Pane>

@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+
+title
+ Playing
+end title
+
+Client<-Server: isYourTurnMTC
+Server<-Client: PlaceCardMTS
+
+alt player removes card
+Client->Server: RemoveLastPlayerCard
+Server->Client: PlacedCardMTC
+Client->Server: PlaceCardMTS
+end
+Client->Server: DrawCardMTS
+Server->Client: NewCardInHandMTC
+Client->Server: EndOfTurnMTS
+
+@enduml

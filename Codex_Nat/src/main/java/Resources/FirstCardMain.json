@@ -1,0 +1,83 @@
+[
+  {
+    "TypeCard": "F",
+    "CardID": 81,
+    "resource1": "PLANT",
+    "resource2": "PLAYABLE",
+    "resource3": "INSECT",
+    "resource4": "PLAYABLE",
+    "ExtraResources": ["INSECT"],
+    "Backresource1": "PLANT",
+    "Backresource2": "ANIMAL",
+    "Backresource3": "INSECT",
+    "Backresource4": "FUNGI"
+  },
+  {
+    "TypeCard": "F",
+    "CardID": 82,
+    "resource1": "PLAYABLE",
+    "resource2": "FUNGI",
+    "resource3": "PLAYABLE",
+    "resource4": "ANIMAL",
+    "ExtraResources": ["FUNGI"],
+    "Backresource1": "ANIMAL",
+    "Backresource2": "INSECT",
+    "Backresource3": "FUNGI",
+    "Backresource4": "PLANT"
+  },
+  {
+    "TypeCard": "F",
+    "CardID": 83,
+    "resource1": "PLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE",
+    "ExtraResources": ["PLANT", "FUNGI"],
+    "Backresource1": "ANIMAL",
+    "Backresource2": "PLANT",
+    "Backresource3": "FUNGI",
+    "Backresource4": "INSECT"
+  },
+  {
+    "TypeCard": "F",
+    "CardID": 84,
+    "resource1": "PLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE",
+    "ExtraResources": ["ANIMAL", "INSECT"],
+    "Backresource1": "INSECT",
+    "Backresource2": "FUNGI",
+    "Backresource3": "ANIMAL",
+    "Backresource4": "PLANT"
+  },
+  {
+    "TypeCard": "F",
+    "CardID": 85,
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE",
+    "ExtraResources": ["ANIMAL", "INSECT", "PLANT"],
+    "Backresource1": "FUNGI",
+    "Backresource2": "ANIMAL",
+    "Backresource3": "PLANT",
+    "Backresource4": "INSECT"
+  },
+  {
+    "TypeCard": "F",
+    "CardID": 86,
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE",
+    "ExtraResources": ["PLANT", "ANIMAL", "FUNGI"],
+    "Backresource1": "ANIMAL",
+    "Backresource2": "INSECT",
+    "Backresource3": "PLANT",
+    "Backresource4": "FUNGI"
+  }
+]
+
+
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="306.0" fitWidth="407.0" layoutX="-5.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="222.0" fitWidth="193.0" layoutX="5.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icons/santone2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="236.0" layoutX="132.0" layoutY="44.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/icons/pngwing.com.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="155.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Would you like to place or flip this card?" textAlignment="CENTER" wrappingWidth="176.0630340576172">
+         <font>
+            <Font name="Luminari" size="17.0" />
+         </font>
+      </Text>
+      <Button fx:id="placeButton" blendMode="MULTIPLY" layoutX="190.0" layoutY="177.0" mnemonicParsing="false" text="Place">
+         <font>
+            <Font name="Luminari" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="flipButton" blendMode="MULTIPLY" layoutX="291.0" layoutY="177.0" mnemonicParsing="false" text="Flip">
+         <font>
+            <Font name="Luminari" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelButton" blendMode="MULTIPLY" layoutX="326.0" layoutY="255.0" mnemonicParsing="false" text="Cancel">
+         <font>
+            <Font name="Luminari" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

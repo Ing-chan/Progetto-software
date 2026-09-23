@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.Client.View.GUI.WaitingRoomSceneController">
+    <children>
+        <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+            <image>
+                <Image url="@../img/background.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="169.0" fitWidth="398.0" layoutX="188.0" layoutY="53.0" opacity="0.8" pickOnBounds="true">
+            <image>
+                <Image url="@../img/icons/pngwing.com.png" />
+            </image>
+        </ImageView>
+        <Text layoutX="225.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wait for the other players to join the game..." wrappingWidth="301.86505126953125">
+            <font>
+                <Font name="Luminari" size="17.0" />
+            </font></Text>
+        <ImageView fitHeight="259.0" fitWidth="250.0" layoutX="14.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/icons/santone1.png" />
+            </image>
+        </ImageView>
+        <ProgressIndicator blendMode="DIFFERENCE" layoutX="361.0" layoutY="244.0" />
+    </children>
+</AnchorPane>

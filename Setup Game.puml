@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+
+title
+Game setup
+end title
+
+Client<-Server: StartGameMTC
+Server->Client: SetupMTC
+Server->Client: ChooseSecretObjMTC
+Client->Server: SecretObjPickedMTS
+
+
+@enduml

@@ -1,0 +1,95 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+package Client{
+
+abstract class MessageToServer{
+Int gameId
+GameModel Game
+String nickname
++ void update()
++ int getGameId()
++ void setGameId(int)
++ Game getGame()
++ void setGame(Game)
++ String getNickname()
++ void setNickname(String)
+}
+
+class PlaceCardMTS extends MessageToServer{
+int cardID
+Point coords
++ void update()
++ int getCardPosition()
+}
+
+class PeekPlayerMTS extends MessageToServer{
+String nickname
++ void update()
++ string getNickname()
+}
+
+class CanIPlayMTS extends MessageToServer{
+int gameId
++ void update()
++ int getGameId()
+}
+
+class DrawCardMTS extends MessageToServer{
+int cardID
++ void update()
++ int getCardID()
+}
+
+class NewGameMTS extends MessageToServer{
+int playerNumber
++ void update()
++ int getNumberOfPlayers()
+}
+}
+
+package Server {
+
+class GameController{
+GameModel game
+TurnHandeler turnHandler
++ void setGame()
++ void setTurnHandeler()
++ void onCommand(MessageToServer)
+}
+
+class TurnHandeler{
+List <String> players
+boolean lastTurn
+List<EndOfTurnObserver> observer
+String ActivePlayer
+GameState gameState
+int num_turn
++ String getActivePlayer()
++ void changeTurn()
++ void endTurn()
++ void startLastTurn()
++ void notifyObservers()
++ void setActivePlayer()
+}
+
+package Executor{
+
+interface Executor
+
+class TurnRequestExecutor implements Executor{
++ void isMyTurn()
+}
+
+class PickUpCardExecutorExecutor implements Executor{
++ void pickUpCard(MessageToServer)
+}
+
+class EndTurnExecutor implements Executor{
++ void endTurnExecutor(MoveMTS)
+}
+}
+}
+
+@enduml

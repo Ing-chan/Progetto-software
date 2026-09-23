@@ -1,0 +1,362 @@
+[
+  {
+    "TypeCard": "R",
+    "Color": "RED",
+    "Points": 0,
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "FUNGI",
+    "resource4": "FUNGI"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "RED",
+    "Points": 0,
+    "resource1": "FUNGI",
+    "resource2": "PLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "FUNGI"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "RED",
+    "Points": 0,
+    "resource1": "UNPLAYABLE",
+    "resource2": "FUNGI",
+    "resource3": "FUNGI",
+    "resource4": "PLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "RED",
+    "Points": 0,
+    "resource1": "FUNGI",
+    "resource2": "FUNGI",
+    "resource3": "PLAYABLE",
+    "resource4": "UNPLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "RED",
+    "Points": 0,
+    "resource1": "QUILL",
+    "resource2": "FUNGI",
+    "resource3": "PLANT",
+    "resource4": "UNPLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "RED",
+    "Points": 0,
+    "resource1": "FUNGI",
+    "resource2": "ANIMAL",
+    "resource3": "UNPLAYABLE",
+    "resource4": "INKWELL"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "RED",
+    "Points": 0,
+    "resource1": "INSECT",
+    "resource2": "PLAYABLE",
+    "resource3": "MANUSCRIPT",
+    "resource4": "FUNGI"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "RED",
+    "Points": 1,
+    "resource1": "FUNGI",
+    "resource2": "UNPLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "RED",
+    "Points": 1,
+    "resource1": "UNPLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "FUNGI"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "RED",
+    "Points": 1,
+    "resource1": "PLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "FUNGI",
+    "resource4": "UNPLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "GREEN",
+    "Points": 0,
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "PLANT",
+    "resource4": "PLANT"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "GREEN",
+    "Points": 0,
+    "resource1": "PLANT",
+    "resource2": "PLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLANT"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "GREEN",
+    "Points": 0,
+    "resource1": "UNPLAYABLE",
+    "resource2": "PLANT",
+    "resource3": "PLANT",
+    "resource4": "PLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "GREEN",
+    "Points": 0,
+    "resource1": "PLANT",
+    "resource2": "PLANT",
+    "resource3": "PLAYABLE",
+    "resource4": "UNPLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "GREEN",
+    "Points": 0,
+    "resource1": "INSECT",
+    "resource2": "PLANT",
+    "resource3": "QUILL",
+    "resource4": "UNPLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "GREEN",
+    "Points": 0,
+    "resource1": "PLANT",
+    "resource2": "INKWELL",
+    "resource3": "UNPLAYABLE",
+    "resource4": "FUNGI"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "GREEN",
+    "Points": 0,
+    "resource1": "UNPLAYABLE",
+    "resource2": "ANIMAL",
+    "resource3": "PLANT",
+    "resource4": "MANUSCRIPT"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "GREEN",
+    "Points": 1,
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "PLANT",
+    "resource4": "PLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "GREEN",
+    "Points": 1,
+    "resource1": "PLAYABLE",
+    "resource2": "PLANT",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "GREEN",
+    "Points": 1,
+    "resource1": "PLANT",
+    "resource2": "PLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "UNPLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "BLUE",
+    "Points": 0,
+    "resource1": "ANIMAL",
+    "resource2": "PLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "ANIMAL"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "BLUE",
+    "Points": 0,
+    "resource1": "PLAYABLE",
+    "resource2": "ANIMAL",
+    "resource3": "ANIMAL",
+    "resource4": "UNPLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "BLUE",
+    "Points": 0,
+    "resource1": "UNPLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "ANIMAL",
+    "resource4": "ANIMAL"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "BLUE",
+    "Points": 0,
+    "resource1": "ANIMAL",
+    "resource2": "ANIMAL",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "BLUE",
+    "Points": 0,
+    "resource1": "INSECT",
+    "resource2": "ANIMAL",
+    "resource3": "INKWELL",
+    "resource4": "UNPLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "BLUE",
+    "Points": 0,
+    "resource1": "ANIMAL",
+    "resource2": "MANUSCRIPT",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLANT"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "BLUE",
+    "Points": 0,
+    "resource1": "UNPLAYABLE",
+    "resource2": "FUNGI",
+    "resource3": "ANIMAL",
+    "resource4": "QUILL"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "BLUE",
+    "Points": 1,
+    "resource1": "PLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "ANIMAL",
+    "resource4": "UNPLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "BLUE",
+    "Points": 1,
+    "resource1": "UNPLAYABLE",
+    "resource2": "ANIMAL",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "BLUE",
+    "Points": 1,
+    "resource1": "ANIMAL",
+    "resource2": "UNPLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "PURPLE",
+    "Points": 0,
+    "resource1": "INSECT",
+    "resource2": "UNPLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "INSECT"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "PURPLE",
+    "Points": 0,
+    "resource1": "PLAYABLE",
+    "resource2": "INSECT",
+    "resource3": "INSECT",
+    "resource4": "UNPLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "PURPLE",
+    "Points": 0,
+    "resource1": "UNPLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "INSECT",
+    "resource4": "INSECT"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "PURPLE",
+    "Points": 0,
+    "resource1": "INSECT",
+    "resource2": "INSECT",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "PURPLE",
+    "Points": 0,
+    "resource1": "QUILL",
+    "resource2": "INSECT",
+    "resource3": "ANIMAL",
+    "resource4": "UNPLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "PURPLE",
+    "Points": 0,
+    "resource1": "INSECT",
+    "resource2": "FUNGI",
+    "resource3": "UNPLAYABLE",
+    "resource4": "MANUSCRIPT"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "PURPLE",
+    "Points": 0,
+    "resource1": "PLANT",
+    "resource2": "PLAYABLE",
+    "resource3": "INKWELL",
+    "resource4": "INSECT"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "PURPLE",
+    "Points": 1,
+    "resource1": "UNPLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "INSECT"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "PURPLE",
+    "Points": 1,
+    "resource1": "PLAYABLE",
+    "resource2": "INSECT",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE"
+  },
+  {
+    "TypeCard": "R",
+    "Color": "PURPLE",
+    "Points": 1,
+    "resource1": "INSECT",
+    "resource2": "PLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "UNPLAYABLE"
+  }
+]

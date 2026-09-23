@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+title
+EndGame&Disconnection
+end title
+
+
+Client<-Server: EndGameMTC
+
+
+@enduml

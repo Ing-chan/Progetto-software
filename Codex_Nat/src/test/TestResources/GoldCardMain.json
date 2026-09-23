@@ -1,0 +1,626 @@
+[
+  {
+    "TypeCard": "G",
+    "Color": "RED",
+    "Points": 1,
+    "CardRule": "ITEMQUILL",
+    "resource1": "PLAYABLE",
+    "resource2": "QUILL",
+    "resource3": "PLAYABLE",
+    "resource4": "UNPLAYABLE",
+    "ResourceCost": [
+      "FUNGI",
+      "FUNGI",
+      "ANIMAL"
+  ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "RED",
+    "Points": 1,
+    "CardRule": "ITEMVIAL",
+    "resource1": "VIAL",
+    "resource2": "PLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "FUNGI",
+      "FUNGI",
+      "PLANT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "RED",
+    "Points": 1,
+    "CardRule": "ITEMMANUSCRIPT",
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "MANUSCRIPT",
+    "ResourceCost": [
+      "FUNGI",
+      "FUNGI",
+      "INSECT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "RED",
+    "Points": 2,
+    "CardRule": "CORNER",
+    "resource1": "PLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "FUNGI",
+      "FUNGI",
+      "FUNGI",
+      "ANIMAL"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "RED",
+    "Points": 2,
+    "CardRule": "CORNER",
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "FUNGI",
+      "FUNGI",
+      "FUNGI",
+      "PLANT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "RED",
+    "Points": 2,
+    "CardRule": "CORNER",
+    "resource1": "UNPLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "FUNGI",
+      "FUNGI",
+      "FUNGI",
+      "INSECT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "RED",
+    "Points": 3,
+    "CardRule": "IMMEDIATE",
+    "resource1": "UNPLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "VIAL",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "FUNGI",
+      "FUNGI",
+      "FUNGI"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "RED",
+    "Points": 3,
+    "CardRule": "IMMEDIATE",
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "QUILL",
+    "ResourceCost": [
+      "FUNGI",
+      "FUNGI",
+      "FUNGI"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "RED",
+    "Points": 3,
+    "CardRule": "IMMEDIATE",
+    "resource1": "MANUSCRIPT",
+    "resource2": "PLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "UNPLAYABLE",
+    "ResourceCost": [
+      "FUNGI",
+      "FUNGI",
+      "FUNGI"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "RED",
+    "Points": 5,
+    "CardRule": "IMMEDIATE",
+    "resource1": "UNPLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "FUNGI",
+      "FUNGI",
+      "FUNGI",
+      "FUNGI",
+      "FUNGI"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "GREEN",
+    "Points": 1,
+    "CardRule": "ITEMQUILL",
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "QUILL",
+    "ResourceCost": [
+      "PLANT",
+      "PLANT",
+      "INSECT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "GREEN",
+    "Points": 1,
+    "CardRule": "ITEMMANUSCRIPT",
+    "resource1": "MANUSCRIPT",
+    "resource2": "PLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "PLANT",
+      "PLANT",
+      "FUNGI"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "GREEN",
+    "Points": 1,
+    "CardRule": "ITEMVIAL",
+    "resource1": "UNPLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "VIAL",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "PLANT",
+      "PLANT",
+      "ANIMAL"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "GREEN",
+    "Points": 2,
+    "CardRule": "CORNER",
+    "resource1": "PLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "UNPLAYABLE",
+    "ResourceCost": [
+      "PLANT",
+      "PLANT",
+      "PLANT",
+      "INSECT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "GREEN",
+    "Points": 2,
+    "CardRule": "CORNER",
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "PLANT",
+      "PLANT",
+      "PLANT",
+      "ANIMAL"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "GREEN",
+    "Points": 2,
+    "CardRule": "CORNER",
+    "resource1": "UNPLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "PLANT",
+      "PLANT",
+      "PLANT",
+      "FUNGI"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "GREEN",
+    "Points": 3,
+    "CardRule": "IMMEDIATE",
+    "resource1": "UNPLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "QUILL",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "PLANT",
+      "PLANT",
+      "PLANT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "GREEN",
+    "Points": 3,
+    "CardRule": "IMMEDIATE",
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "MANUSCRIPT",
+    "ResourceCost": [
+      "PLANT",
+      "PLANT",
+      "PLANT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "GREEN",
+    "Points": 3,
+    "CardRule": "IMMEDIATE",
+    "resource1": "VIAL",
+    "resource2": "PLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "UNPLAYABLE",
+    "ResourceCost": [
+      "PLANT",
+      "PLANT",
+      "PLANT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "GREEN",
+    "Points": 5,
+    "CardRule": "IMMEDIATE",
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "PLANT",
+      "PLANT",
+      "PLANT",
+      "PLANT",
+      "PLANT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "BLUE",
+    "Points": 1,
+    "CardRule": "ITEMVIAL",
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "VIAL",
+    "ResourceCost": [
+      "ANIMAL",
+      "ANIMAL",
+      "INSECT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "BLUE",
+    "Points": 1,
+    "CardRule": "ITEMMANUSCRIPT",
+    "resource1": "PLAYABLE",
+    "resource2": "MANUSCRIPT",
+    "resource3": "PLAYABLE",
+    "resource4": "UNPLAYABLE",
+    "ResourceCost": [
+      "ANIMAL",
+      "ANIMAL",
+      "PLANT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "BLUE",
+    "Points": 1,
+    "CardRule": "ITEMQUILL",
+    "resource1": "UNPLAYABLE",
+    "resource2": "QUILL",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "ANIMAL",
+      "ANIMAL",
+      "FUNGI"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "BLUE",
+    "Points": 2,
+    "CardRule": "CORNER",
+    "resource1": "PLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "ANIMAL",
+      "ANIMAL",
+      "ANIMAL",
+      "INSECT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "BLUE",
+    "Points": 2,
+    "CardRule": "CORNER",
+    "resource1": "UNPLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "ANIMAL",
+      "ANIMAL",
+      "ANIMAL",
+      "FUNGI"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "BLUE",
+    "Points": 2,
+    "CardRule": "CORNER",
+    "resource1": "PLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "UNPLAYABLE",
+    "ResourceCost": [
+      "ANIMAL",
+      "ANIMAL",
+      "ANIMAL",
+      "PLANT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "BLUE",
+    "Points": 3,
+    "CardRule": "IMMEDIATE",
+    "resource1": "UNPLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "MANUSCRIPT",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "ANIMAL",
+      "ANIMAL",
+      "ANIMAL"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "BLUE",
+    "Points": 3,
+    "CardRule": "IMMEDIATE",
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "ANIMAL",
+      "ANIMAL",
+      "ANIMAL"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "BLUE",
+    "Points": 3,
+    "CardRule": "IMMEDIATE",
+    "resource1": "PLAYABLE",
+    "resource2": "QUILL",
+    "resource3": "UNPLAYABLE",
+    "resource4": "UNPLAYABLE",
+    "ResourceCost": [
+      "ANIMAL",
+      "ANIMAL",
+      "ANIMAL"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "BLUE",
+    "Points": 5,
+    "CardRule": "IMMEDIATE",
+    "resource1": "PLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "UNPLAYABLE",
+    "ResourceCost": [
+      "ANIMAL",
+      "ANIMAL",
+      "ANIMAL",
+      "ANIMAL",
+      "ANIMAL"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "PURPLE",
+    "Points": 1,
+    "CardRule": "ITEMQUILL",
+    "resource1": "QUILL",
+    "resource2": "PLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "INSECT",
+      "INSECT",
+      "PLANT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "PURPLE",
+    "Points": 1,
+    "CardRule": "ITEMMANUSCRIPT",
+    "resource1": "UNPLAYABLE",
+    "resource2": "MANUSCRIPT",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "INSECT",
+      "INSECT",
+      "ANIMAL"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "PURPLE",
+    "Points": 1,
+    "CardRule": "ITEMVIAL",
+    "resource1": "PLAYABLE",
+    "resource2": "VIAL",
+    "resource3": "PLAYABLE",
+    "resource4": "UNPLAYABLE",
+    "ResourceCost": [
+      "INSECT",
+      "INSECT",
+      "FUNGI"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "PURPLE",
+    "Points": 2,
+    "CardRule": "CORNER",
+    "resource1": "PLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "INSECT",
+      "INSECT",
+      "INSECT",
+      "ANIMAL"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "PURPLE",
+    "Points": 2,
+    "CardRule": "CORNER",
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "INSECT",
+      "INSECT",
+      "INSECT",
+      "PLANT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "PURPLE",
+    "Points": 2,
+    "CardRule": "CORNER",
+    "resource1": "UNPLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "INSECT",
+      "INSECT",
+      "INSECT",
+      "FUNGI"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "PURPLE",
+    "Points": 3,
+    "CardRule": "IMMEDIATE",
+    "resource1": "UNPLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "PLAYABLE",
+    "resource4": "VIAL",
+    "ResourceCost": [
+      "INSECT",
+      "INSECT",
+      "INSECT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "PURPLE",
+    "Points": 3,
+    "CardRule": "IMMEDIATE",
+    "resource1": "MANUSCRIPT",
+    "resource2": "UNPLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "INSECT",
+      "INSECT",
+      "INSECT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "PURPLE",
+    "Points": 3,
+    "CardRule": "IMMEDIATE",
+    "resource1": "UNPLAYABLE",
+    "resource2": "PLAYABLE",
+    "resource3": "QUILL",
+    "resource4": "UNPLAYABLE",
+    "ResourceCost": [
+      "INSECT",
+      "INSECT",
+      "INSECT"
+    ]
+  },
+  {
+    "TypeCard": "G",
+    "Color": "PURPLE",
+    "Points": 5,
+    "CardRule": "IMMEDIATE",
+    "resource1": "PLAYABLE",
+    "resource2": "UNPLAYABLE",
+    "resource3": "UNPLAYABLE",
+    "resource4": "PLAYABLE",
+    "ResourceCost": [
+      "INSECT",
+      "INSECT",
+      "INSECT",
+      "INSECT",
+      "INSECT"
+    ]
+  }
+]
+
+
+
+

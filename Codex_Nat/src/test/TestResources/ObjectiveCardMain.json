@@ -1,0 +1,77 @@
+[
+  {
+    "Color": "RED",
+    "Points": 2,
+    "CardRule": "DIAGONALRIGHT"
+  },
+  {
+    "Color": "GREEN",
+    "Points": 2,
+    "CardRule": "DIAGONALLEFT"
+  },
+  {
+    "Color": "BLUE",
+    "Points": 2,
+    "CardRule": "DIAGONALRIGHT"
+  },
+  {
+    "Color": "PURPLE",
+    "Points": 2,
+    "CardRule": "DIAGONALLEFT"
+  },
+  {
+    "Color": "RED",
+    "Points": 3,
+    "CardRule": "DOWNLGREENR"
+  },
+  {
+    "Color": "GREEN",
+    "Points": 3,
+    "CardRule": "DOWNLPURPLEL"
+  },
+  {
+    "Color": "BLUE",
+    "Points": 3,
+    "CardRule": "UPLREDR"
+  },
+  {
+    "Color": "PURPLE",
+    "Points": 3,
+    "CardRule": "UPLBLUEL"
+  },
+  {
+    "Color": "RED",
+    "Points": 2,
+    "CardRule": "FTRIS"
+  },
+  {
+    "Color": "BLUE",
+    "Points": 2,
+    "CardRule": "ATRIS"
+  },
+  {
+    "Color": "PURPLE",
+    "Points": 2,
+    "CardRule": "ITRIS"
+  },
+  {
+    "Color": "GOLD",
+    "Points": 3,
+    "CardRule": "GTRIS"
+  },
+  {
+    "Color": "GOLD",
+    "Points": 2,
+    "CardRule": "MDUO"
+  },
+  {
+    "Color": "GOLD",
+    "Points": 2,
+    "CardRule": "IDUO"
+  },
+  {
+    "Color": "GOLD",
+    "Points": 2,
+    "CardRule": "QDUO"
+  }
+]
