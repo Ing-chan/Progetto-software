@@ -20,28 +20,29 @@ Il risultato finale rispetta integralmente le regole del gioco e offre la possib
 
 ### CLIENT
 
-Il client può essere eseguito in due modalità: CLI e GUI; il giocatore può scegliere la modalità di gioco tramite un comando apposito all'inizio dell'esecuzione del Jar.
+Il client può essere eseguito in due modalità: CLI e GUI. 
+Il giocatore può scegliere la modalità di gioco tramite un comando apposito all'inizio dell'esecuzione del Jar.
 
-#### CLI
-
-Per eseguire il client in modalità testuale, è necessario eseguire il seguente comando da terminale, specificando che si vuole eseguire l'interfaccia a riga di comando:
 ```bash
+# Modalità testuale
 java -jar client.jar -cli
-```
 
-#### GUI
-
-Per poter eseguire MyShelfie con interfaccia grafica è sufficiente digitare il seguente comando:
-```bash
+# Modalità grafica
 java -jar client.jar -gui
 ```
 
 ### SERVER
 
 L'esecuzione del server avviene attraverso il seguente comando, in cui si specifica il percorso del file di configurazione:
+
 ```bash
 java -jar server.jar [server IP]
 ```
+
+## Documentazione di progetto
+
+- [`deliveries/`](deliveries) — peer review e diagrammi UML consegnati durante il corso
+- `uml/` — sorgenti dei diagrammi di sequenza e del modello (PlantUML + draw.io)
 
 ## COMPONENTI DEL GRUPPO
 
