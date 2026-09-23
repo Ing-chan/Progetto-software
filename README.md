@@ -50,4 +50,3 @@ java -jar server.jar [server IP]
 - Lorenzo Castellana
 - Samuele Celedi
 - Matteo Montanelli
-```
